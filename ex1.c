@@ -24,20 +24,15 @@ int is_big_endian() {
 
 unsigned long merge_bytes(unsigned long x, unsigned long int y) {
     unsigned long first_half, second_half;
-    if (is_big_endian() == 0) {
-        // turn the first half of the bits off
-        first_half = (0xFFFFFFFF00000000) & x;
-        // turn the second half of the bits off
-        second_half = (0x00000000FFFFFFFF) & y;
-    } else {
-        // turn the first half of the bits off
-        first_half = (0xFFFFFFFF00000000) & y;
-        // turn the second half of the bits off
-        second_half = (0x00000000FFFFFFFF) & x;
-    }
-    // combine the bits that are on
+
+    // turn the first half of the bits off
+    first_half = (0xFFFFFFFF00000000) & x;
+    // turn the second half of the bits off
+    second_half = (0x00000000FFFFFFFF) & y;
+
     return first_half | second_half;
 }
+
 /**
  *
  * @param x
@@ -49,7 +44,7 @@ unsigned long put_byte(unsigned long x, unsigned char b, int i) {
     int word_length = sizeof(unsigned long);
     unsigned long bit_mask = 0x00000000000000FF, empty_word = 0x0000000000000000, moved_b = b;
     for (int j = 0; j < word_length; j++) {
-        if (j == (word_length - i-1 )) {
+        if (j == (word_length - i - 1)) {
             empty_word |= moved_b;
         } else {
             empty_word |= x & bit_mask;
