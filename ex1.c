@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <endian.h>
+// ***REMOVED*** Daniel Bronfman
 #include "ex1.h"
 
 /**
@@ -22,37 +21,53 @@ int is_big_endian() {
     }
 }
 
+/**
+ * We receive two unsigned longs and return a new word, where the first half is comprised of the first half of Y,
+ * and the second half is comprised of the second half of X.
+ *
+ * @param x - the first word
+ * @param y - second word
+ * @return a word consisting of the merged bytes of the words.
+ */
 unsigned long merge_bytes(unsigned long x, unsigned long int y) {
     unsigned long first_half, second_half;
 
-    // turn the first half of the bits off
+    // turn the second half of the bits off using a bit mask.
     first_half = (0xFFFFFFFF00000000) & x;
-    // turn the second half of the bits off
+    // turn the first half of the bits off using a bit mask.
     second_half = (0x00000000FFFFFFFF) & y;
-
+    // we use the bitwise OR to preform addition of the words.
     return first_half | second_half;
 }
 
 /**
- *
- * @param x
- * @param b
- * @param i
+ *  Put the byte we receive from the function caller to the "word length minus i" position in the word we received.
+ * We preform this by creating an empty word and iterating over x byte by byte,
+ * in order to populate the empty word with the bytes of x.When we arrive at the location we will be inserting the byte,
+ * We skip the bytes of x and instead we insert the bytes given to us via b.
+ * @param x - the word we change the byte in
+ * @param b - the byte we put in the word
+ * @param i - the position we insert the byte in
  * @return
  */
 unsigned long put_byte(unsigned long x, unsigned char b, int i) {
-    int word_length = sizeof(unsigned long);
-    unsigned long bit_mask = 0x00000000000000FF, empty_word = 0x0000000000000000, moved_b = b;
-    for (int j = 0; j < word_length; j++) {
-        if (j == (word_length - i - 1)) {
-            empty_word |= moved_b;
-        } else {
-            empty_word |= x & bit_mask;
-        }
 
+    int word_length = sizeof(x), j;
+    unsigned long bit_mask = 0x00000000000000FF, new_x = 0x0000000000000000, moved_b = b;
+    // iterate through the bytes
+    for (j = 0; j < word_length; j++) {
+        // check if it's the position we want to put the byte
+        if ((word_length - i - 1) == j) {
+            // use bitwise OR to add the bytes from b.
+            new_x |= moved_b;
+        } else {
+            // use bitwise OR to add the bytes from x.
+            new_x |= x & bit_mask;
+        }
         bit_mask <<= 8;
+        // we are given b as char, so we need to move the bytes that are on for them to be in the location of the mask.
         moved_b <<= 8;
     }
-    return empty_word;
+    return new_x;
 }
 
