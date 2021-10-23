@@ -1,0 +1,222 @@
+The system is: Linux - 5.4.72-microsoft-standard-WSL2 - s390x
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f5433/fast && make: Warning: File 'Makefile' has modification time 0.071 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_f5433.dir/build.make CMakeFiles/cmTC_f5433.dir/build
+make[1]: Entering directory '/tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_f5433.dir/flags.make' has modification time 0.022 s in the future
+Building C object CMakeFiles/cmTC_f5433.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f5433.dir/testCCompiler.c.o   -c /tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f5433
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5433.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f5433.dir/testCCompiler.c.o  -o cmTC_f5433 
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp'
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8800c/fast && /usr/bin/make -f CMakeFiles/cmTC_8800c.dir/build.make CMakeFiles/cmTC_8800c.dir/build
+make[1]: Entering directory '/tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: s390x-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=s390x-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch=zEC12 --with-long-double-128 --enable-multilib --enable-checking=release --build=s390x-linux-gnu --host=s390x-linux-gnu --target=s390x-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o' '-c' '-march=zEC12' '-m64' '-mzarch'
+ /usr/lib/gcc/s390x-linux-gnu/9/cc1 -quiet -v -imultiarch s390x-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=zEC12 -m64 -mzarch -auxbase-strip CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccPyvMzD.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (s390x-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/s390x-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/s390x-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/s390x-linux-gnu/9/../../../../s390x-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/s390x-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/s390x-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (s390x-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2bf84fed21b8fdda007acbd73f09ae25
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o' '-c' '-march=zEC12' '-m64' '-mzarch'
+ as -v -m64 -mzarch -march=zEC12 -o CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o /tmp/ccPyvMzD.s
+GNU assembler version 2.34 (s390x-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/:/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/:/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib/:/lib/s390x-linux-gnu/:/lib/../lib/:/usr/lib/s390x-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/s390x-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o' '-c' '-march=zEC12' '-m64' '-mzarch'
+Linking C executable cmTC_8800c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8800c.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o  -o cmTC_8800c 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/s390x-linux-gnu/9/lto-wrapper
+Target: s390x-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=s390x-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch=zEC12 --with-long-double-128 --enable-multilib --enable-checking=release --build=s390x-linux-gnu --host=s390x-linux-gnu --target=s390x-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/:/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/:/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib/:/lib/s390x-linux-gnu/:/lib/../lib/:/usr/lib/s390x-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/s390x-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8800c' '-march=zEC12' '-m64' '-mzarch'
+ /usr/lib/gcc/s390x-linux-gnu/9/collect2 -plugin /usr/lib/gcc/s390x-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/s390x-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFB4pIX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf64_s390 --hash-style=gnu --as-needed -dynamic-linker /lib/ld64.so.1 -pie -z now -z relro -o cmTC_8800c /usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/Scrt1.o /usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/crti.o /usr/lib/gcc/s390x-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/s390x-linux-gnu/9 -L/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu -L/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib -L/lib/s390x-linux-gnu -L/lib/../lib -L/usr/lib/s390x-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/s390x-linux-gnu/9/../../.. CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/s390x-linux-gnu/9/crtendS.o /usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8800c' '-march=zEC12' '-m64' '-mzarch'
+make[1]: Leaving directory '/tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/s390x-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/s390x-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/s390x-linux-gnu/9/include] ==> [/usr/lib/gcc/s390x-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/s390x-linux-gnu] ==> [/usr/include/s390x-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/s390x-linux-gnu/9/include;/usr/local/include;/usr/include/s390x-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_8800c/fast && /usr/bin/make -f CMakeFiles/cmTC_8800c.dir/build.make CMakeFiles/cmTC_8800c.dir/build]
+  ignore line: [make[1]: Entering directory '/tmp/EX1_mivne/cmake-build-debug-docker/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: s390x-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=s390x-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch=zEC12 --with-long-double-128 --enable-multilib --enable-checking=release --build=s390x-linux-gnu --host=s390x-linux-gnu --target=s390x-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o' '-c' '-march=zEC12' '-m64' '-mzarch']
+  ignore line: [ /usr/lib/gcc/s390x-linux-gnu/9/cc1 -quiet -v -imultiarch s390x-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=zEC12 -m64 -mzarch -auxbase-strip CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccPyvMzD.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (s390x-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/s390x-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/s390x-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/s390x-linux-gnu/9/../../../../s390x-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/s390x-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/s390x-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (s390x-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2bf84fed21b8fdda007acbd73f09ae25]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o' '-c' '-march=zEC12' '-m64' '-mzarch']
+  ignore line: [ as -v -m64 -mzarch -march=zEC12 -o CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o /tmp/ccPyvMzD.s]
+  ignore line: [GNU assembler version 2.34 (s390x-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/:/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/:/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib/:/lib/s390x-linux-gnu/:/lib/../lib/:/usr/lib/s390x-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/s390x-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o' '-c' '-march=zEC12' '-m64' '-mzarch']
+  ignore line: [Linking C executable cmTC_8800c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8800c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o  -o cmTC_8800c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/s390x-linux-gnu/9/lto-wrapper]
+  ignore line: [Target: s390x-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=s390x-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch=zEC12 --with-long-double-128 --enable-multilib --enable-checking=release --build=s390x-linux-gnu --host=s390x-linux-gnu --target=s390x-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/:/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/s390x-linux-gnu/9/:/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/:/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib/:/lib/s390x-linux-gnu/:/lib/../lib/:/usr/lib/s390x-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/s390x-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8800c' '-march=zEC12' '-m64' '-mzarch']
+  link line: [ /usr/lib/gcc/s390x-linux-gnu/9/collect2 -plugin /usr/lib/gcc/s390x-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/s390x-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFB4pIX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf64_s390 --hash-style=gnu --as-needed -dynamic-linker /lib/ld64.so.1 -pie -z now -z relro -o cmTC_8800c /usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/Scrt1.o /usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/crti.o /usr/lib/gcc/s390x-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/s390x-linux-gnu/9 -L/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu -L/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib -L/lib/s390x-linux-gnu -L/lib/../lib -L/usr/lib/s390x-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/s390x-linux-gnu/9/../../.. CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/s390x-linux-gnu/9/crtendS.o /usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/s390x-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/s390x-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/s390x-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFB4pIX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64_s390] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld64.so.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8800c] ==> ignore
+    arg [/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/s390x-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/s390x-linux-gnu/9] ==> dir [/usr/lib/gcc/s390x-linux-gnu/9]
+    arg [-L/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu] ==> dir [/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu]
+    arg [-L/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib]
+    arg [-L/lib/s390x-linux-gnu] ==> dir [/lib/s390x-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/s390x-linux-gnu] ==> dir [/usr/lib/s390x-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/s390x-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/s390x-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_8800c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/s390x-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/s390x-linux-gnu/9] ==> [/usr/lib/gcc/s390x-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/s390x-linux-gnu/9/../../../s390x-linux-gnu] ==> [/usr/lib/s390x-linux-gnu]
+  collapse library dir [/usr/lib/gcc/s390x-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/s390x-linux-gnu] ==> [/lib/s390x-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/s390x-linux-gnu] ==> [/usr/lib/s390x-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/s390x-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/s390x-linux-gnu/9;/usr/lib/s390x-linux-gnu;/usr/lib;/lib/s390x-linux-gnu;/lib]
+  implicit fwks: []
+
+

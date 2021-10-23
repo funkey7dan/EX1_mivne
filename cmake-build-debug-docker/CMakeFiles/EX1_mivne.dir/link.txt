@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/EX1_mivne.dir/main.c.o CMakeFiles/EX1_mivne.dir/ex1.c.o  -o EX1_mivne 
